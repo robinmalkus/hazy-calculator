@@ -9,7 +9,7 @@
 //5) returns NaN if the array does not represent a proper operation
 
 // function calculate (HazyCalculator)
-function calculate (string1, HazyCalculator){
+function HazyCalculator (ArrayNumbers, Operands){
 //convert a string to a number
 parseInt ('1', 1)
 parseInt ('2', 2)
@@ -21,8 +21,18 @@ parseInt ('7', 7)
 parseInt ('8', 8)
 parseInt ('9', 9)
 // multiplies two numbers when one is stringified
-if (HazyCalculator) { 
-}
+var ArrayNumbers = 
+A = 2
+B = "2"
+Return (A) * number(B)
+// Convert Null values as zeros
+const swapValue = (HazyCalculator) => {
+    Object.keys(HazyCalculator).forEach(key => {
+       if(!obj[key]){
+          obj[key] = '0';
 // Undefined values ignored
 // Empty string values ignored
-// Non-numeric values ingnored
+// Non-numeric values ingored
+
+
+
