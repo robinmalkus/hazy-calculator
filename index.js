@@ -9,7 +9,7 @@
 //5) returns NaN if the array does not represent a proper operation
 
 // function calculate (HazyCalculator)
-function HazyCalculator (ArrayNumbers, Operands){
+const HazyCalculator = (ArrayNumbers, Operands) => {
 //convert a string to a number
 parseInt ('1', 1)
 parseInt ('2', 2)
@@ -31,8 +31,11 @@ const swapValue = (HazyCalculator) => {
        if(!obj[key]){
           obj[key] = '0';
 // Undefined values ignored
+var ArrayNumbers = [, , '', 23, '-', , 12];
+ArrayNumbers = ArrayNumbers.filter(function( element ) {
+   return element !== undefined;
+});
 // Empty string values ignored
 // Non-numeric values ingored
 
-
-
+}
