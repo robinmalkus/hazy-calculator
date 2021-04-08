@@ -8,34 +8,26 @@
 //4) ignores non-numeric values  and continues operation
 //5) returns NaN if the array does not represent a proper operation
 
-// function calculate (HazyCalculator)
-const HazyCalculator = (ArrayNumbers, Operands) => {
-//convert a string to a number
-parseInt ('1', 1)
-parseInt ('2', 2)
-parseInt ('3', 3)
-parseInt ('4', 4)
-parseInt ('5', 5)
-parseInt ('6', 6)
-parseInt ('7', 7)
-parseInt ('8', 8)
-parseInt ('9', 9)
-// multiplies two numbers when one is stringified
-var ArrayNumbers = 
-A = 2
-B = "2"
-Return (A) * number(B)
-// Convert Null values as zeros
-const swapValue = (HazyCalculator) => {
-    Object.keys(HazyCalculator).forEach(key => {
-       if(!obj[key]){
-          obj[key] = '0';
-// Undefined values ignored
-var ArrayNumbers = [, , '', 23, '-', , 12];
-ArrayNumbers = ArrayNumbers.filter(function( element ) {
-   return element !== undefined;
-});
-// Empty string values ignored
-// Non-numeric values ingored
+//function calculate (CalculationSteps)
+//* eslint-disable comma-spacing */
+/* eslint-disable no-sparse-arrays */
+/* eslint-disable no-console */
+/* eslint-disable eqeqeq */
+const array = [0, null, 1, '', 2, undefined, 2, , , , , 4, , 4, , 5, , 6, , , ,]
+const arrFiltered = array.filter(element => {
+  return element != null && element != ''
+})
+console.log(arrFiltered)
 
-}
+//function CalculationSteps(HazyCalculator) {}
+//const CalculationSteps = (Operands) => { };
+//const CalculationSteps = (undefined) => { };
+            //const CalculationSteps = (nonNumeric) => { };
+            
+            
+            // Convert Null values as zeros
+            // Undefined values ignored
+            // Empty string values ignored
+            // Non-numeric values ingored
+            // Return NaN if proper operation is not represent
+module.exports = array
